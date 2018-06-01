@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="605dp"
+    android:background="#FFF3E0"
+    android:orientation="vertical"
+    tools:context="com.example.benbrahim.mahdi.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Base.Theme.AppCompat.Light"
+        android:layout_marginTop="500dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:text="@string/Exite" />
+
+        <Button
+            android:id="@+id/btnAfficher"
+            android:layout_width="205dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:layout_height="wrap_content"
+            android:text="@string/info" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="550dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            tools:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvcmd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="left"
+                android:text="Phone Information Display Here"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:fontFamily="serif-monospace"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="left"
+                android:textColor="#000000"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

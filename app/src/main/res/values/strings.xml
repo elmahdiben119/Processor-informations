@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Phone Informations</string>
+    <string name="Exite">Exite</string>
+    <string name="info">GetInfo</string>
+</resources>
